@@ -1,6 +1,6 @@
-# jflorestech.github.io
-Custom Domain: jftech.info
+<h1>GitHub Pages: jflorestech.github.io<h1>
+<span>Custom Domain: jftech.info</span>
+<span>Source branch: gh-pages</span>
 mounted gh-pages branch as dist in main 
-added dist to .gitignore
-Set git pages 
-Now index.html
+added dist to .gitignore 
+Defaults to index.html of gh-pages branch
