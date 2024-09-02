@@ -1241,7 +1241,8 @@ input[type="password"], textarea {
  * -------------------------------------------------------------------
  * Equally-sized columns define at parent/row level.
  * ------------------------------------------------------------------- */
-.block-large-1-8>.column {
+.block-large-1-8>.column,
+.block-large-1-8 {
     -ms-flex: 0 0 12.5%;
     -webkit-box-flex: 0;
     flex: 0 0 12.5%;
@@ -3906,6 +3907,10 @@ input[type="button"].btn--primary:focus {
     margin-bottom: 0;
 }
 
+.s-resume a {
+ box-shadow: 0px 20px var(--color-gray-3);
+}
+
 /* ------------------------------------------------------------------- 
  * ## resume block
  * ------------------------------------------------------------------- */
@@ -4145,6 +4150,66 @@ input[type="button"].btn--primary:focus {
     color: white;
 }
 
+/* ===================================================================
+ * # Certifications
+ *
+ * ------------------------------------------------------------------- */
+ .s-certifications {
+    background-color: var(--color-gray-6);
+    padding-top: calc(6 * var(--space));
+    padding-bottom: var(--vspace-5);
+}
+
+.s-certifications h3 {
+    margin-top: 0;
+    color: var(--color-white)
+}
+
+.s-certifications__header {
+    text-align: center;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: var(--vspace-1);
+}
+
+.certifications__row {
+    justify-content: center;
+}
+
+.certifications__row > div{
+    -ms-flex: 0 1 12.5%;
+    -webkit-box-flex: 0;
+    flex: 0 1 12.5%;
+    max-width: 12.5%;
+    margin: auto 10px;
+}
+
+.certifications__row img {
+    display: block;
+    margin: var(--vspace-1) auto;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * certifications section
+ * ------------------------------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+    .certifications__row > div{
+        -ms-flex: 0 1 50%;
+        -webkit-box-flex: 0;
+        flex: 0 1 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .certifications__row > div{
+        -ms-flex: 0 1 100%;
+        -webkit-box-flex: 0;
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+}
 
 /* ===================================================================
  * # CTA
