@@ -13,11 +13,3 @@ added dist to .gitignore
 <br>
 Defaults to index.html of gh-pages branch 
 <br>
-<h3> How to do?: </h3>
-1st: Create the github pages repo, which has to be named <username>.github.io
-<pre>
-<code>
- gh repo create <username>.github.io --public --clone 
-</code>
-</pre>
-2nd: Create the branch of the 
