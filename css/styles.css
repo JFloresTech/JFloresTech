@@ -734,9 +734,9 @@ input[type="password"], textarea {
 /* columns
  * -------------------------------------- */
 .column {
-    -ms-flex: 1 1 0%;
+    -ms-flex: 0 1 0%;
     -webkit-box-flex: 1;
-    flex: 1 1 0%;
+    flex: 0 1 0%;
     padding: 0 var(--gutter-lg);
 }
 
@@ -2380,7 +2380,6 @@ input[type="button"].btn--primary:focus {
     border-radius: 1000px !important;
 }
 
-
 /* =================================================================== 
  * # additional components
  *
@@ -3537,6 +3536,10 @@ input[type="button"].btn--primary:focus {
     left: 50%;
 }
 
+.s-hero__content > .column {
+    flex: 1 1 0%;
+}
+
 /* ------------------------------------------------------------------- 
  * ## hero social
  * ------------------------------------------------------------------- */
@@ -3801,6 +3804,10 @@ input[type="button"].btn--primary:focus {
 .s-about__content-bottom a {
     color: rgba(255, 255, 255, 0.4);
 }
+
+.s-about__content-bottom  a.btn--deafult-text-color{
+    color: black;
+ }
 
 .s-about__content-bottom a:hover, 
 .s-about__content-bottom a:focus {
