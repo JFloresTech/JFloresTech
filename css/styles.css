@@ -4162,7 +4162,7 @@ input[type="button"].btn--primary:focus {
 
 .s-certifications h3 {
     margin-top: 0;
-    color: var(--color-white)
+    color: var(--color-white);
 }
 
 .s-certifications__header {
