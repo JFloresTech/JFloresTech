@@ -3860,6 +3860,13 @@ input[type="button"].btn--primary:focus {
     text-align: center;
 }
 
+a.project-btn{
+    display: flex;
+    height: auto;
+    text-wrap: auto;
+    justify-content: center;
+}
+
 /* ------------------------------------------------------------------- 
  * ## portfolio list
  * ------------------------------------------------------------------- */
