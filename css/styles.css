@@ -3858,6 +3858,7 @@ input[type="button"].btn--primary:focus {
 
 .s-portfolio__header {
     text-align: center;
+    padding-bottom: var(--vspace-5);
 }
 
 a.project-btn{
